@@ -1,0 +1,86 @@
+div#tv {
+	margin: auto;
+	width: 650px;
+}
+
+div#tvConsole {
+	position: relative;
+	background: url(../images/tv.png) no-repeat top left;
+	width: 650px;
+	height: 770px;
+	top: 0px;
+	left: 0px;
+}
+
+/* video */
+div#videoDiv {
+position: relative;
+width: 720px;
+height: 480px;
+top: 70px; /*posicion y*/
+left: 80px; /*posicion x*/
+}
+div#videoDiv canvas {
+position: absolute;
+top: 0px;
+left: 0px;
+}
+video {
+	background-color: black;
+	width: 480px;
+	height: 360px;
+}
+
+div#highlight {
+	position: absolute;
+	width: 213px;
+	height: 230px;
+	top: 0px;
+	left: 20px;
+	z-index: 1;
+}
+@media screen and (max-width: 800px){
+div#tv {
+	margin: auto;
+	width: 650px;
+	height: 400px;
+}
+
+div#tvConsole {
+	position: relative;
+	background: url(../images/tv1.png) no-repeat top left;
+	width: 650px;
+	height: 770px;
+	top: 0px;
+	left: 0px;
+}
+
+/* video */
+div#videoDiv {
+position: relative;
+	width: 100%;
+	height: auto;
+top: 50px; /*posicion y*/
+left: 60px; /*posicion x*/
+}
+div#videoDiv canvas {
+position: absolute;
+top: 60px;
+left: 60px;
+
+}
+video {
+	background-color: black;
+	width: 220px;
+	height: 150px;
+}
+
+div#highlight {
+	position: absolute;
+	width: 213px;
+	height: 50px;
+	top: 0px;
+	left: 20px;
+	z-index: 1;
+}
+}
